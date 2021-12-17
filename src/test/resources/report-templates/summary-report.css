@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400');
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #1e824c;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 200;
+}
+
+table {
+  margin: 5px;
+  border-collapse: separate;
+  border: solid #bdc3c7 1px;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+}
+
+div.project-header {
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+div.project-header > span.project-name {
+
+}
+
+div.project-header > span.project-version {
+  padding-left: 20px;
+}
+
+div.date-test-ran {
+  font-size: small;
+  font-style: italic;
+}
+
+table.summary-table {
+  width: 800px;
+  text-align: left;
+  font-weight: 500;
+  font-size: small;
+}
+
+table.summary-table th {
+  background: #2980b9;
+  padding: 6px;
+  color: white;
+}
+
+table.summary-table td {
+  background: #e0e0e0;
+  padding: 6px;
+}
+
+tr.error td, td.error {
+  background-color: #f89a4f !important;
+}
+
+tr.failure td, td.failure {
+  color: red;
+}
+
+div.footer {
+  text-align: center;
+  font-size: small;
+}
